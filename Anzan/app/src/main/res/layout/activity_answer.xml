@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#111166"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".AnswerActivity">
+
+    <ImageView
+        android:id="@+id/mark_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="24dp"
+        app:srcCompat="@drawable/correct_image" />
+
+    <TextView
+        android:id="@+id/question_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="0"
+        android:textColor="#9B9B9B"
+        android:textSize="32dp" />
+
+    <TextView
+        android:id="@+id/your_answer_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-black"
+        android:paddingTop="8dp"
+        android:paddingBottom="32dp"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="64dp" />
+
+    <ImageView
+        android:id="@+id/randy_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/randy_happy_image" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="320dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="32dp"
+        android:layout_weight="1"
+        android:backgroundTint="#FFEB3B"
+        android:fontFamily="sans-serif-black"
+        android:text="もどる"
+        android:textColor="#000000"
+        android:textSize="24dp"
+        app:cornerRadius="40dp" />
+</LinearLayout>
