@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
 
+
     var count = 0
 
     private lateinit var prefs: SharedPreferences
